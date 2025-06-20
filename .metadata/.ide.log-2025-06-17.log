@@ -1,0 +1,39 @@
+2025-06-18 00:01:35,630 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 486672856 Bytes (864026624)
+2025-06-18 00:01:38,617 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 519891560 Bytes (864026624)
+2025-06-18 00:01:53,581 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 598169280 Bytes (864026624)
+2025-06-18 00:01:55,510 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-06-18 00:01:55,511 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-18 00:01:55,512 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-18 00:01:55,513 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-06-18 00:01:55,528 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-18 00:01:55,535 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-18 00:01:56,152 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\UART_base\MXTmpFiles\license.tmp_save
+2025-06-18 00:01:57,370 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\UART_base\MXTmpFiles\license.tmp
+2025-06-18 00:01:58,240 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\UART_base\MXTmpFiles\gpio.tmp_save
+2025-06-18 00:01:59,390 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\UART_base\MXTmpFiles\gpio.tmp
+2025-06-18 00:01:59,794 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Src\stm32f3xx_it.c_save
+2025-06-18 00:02:00,128 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Src\stm32f3xx_it.c
+2025-06-18 00:02:00,155 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Inc\stm32f3xx_it.h_save
+2025-06-18 00:02:00,396 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Inc\stm32f3xx_it.h
+2025-06-18 00:02:00,482 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-18 00:02:00,896 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Src\stm32f3xx_hal_msp.c
+2025-06-18 00:02:00,919 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\UART_base\MXTmpFiles\system.tmp_save
+2025-06-18 00:02:01,086 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\UART_base\MXTmpFiles\system.tmp
+2025-06-18 00:02:01,167 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-18 00:02:01,493 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-18 00:02:01,676 [INFO] ApiDbMcu:508 - Load IP Config File for USART2
+2025-06-18 00:02:01,686 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2025-06-18 00:02:01,798 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Inc\main.h_save
+2025-06-18 00:02:02,084 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Inc\main.h
+2025-06-18 00:02:02,158 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Src\main.c_save
+2025-06-18 00:02:02,662 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\UART_base\Core\Src\main.c
+2025-06-18 00:02:03,632 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 400mS.
+2025-06-18 00:02:03,640 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-18 00:02:03,796 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-18 00:02:03,807 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-06-18 00:02:03,828 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-06-18 00:02:03,852 [INFO] ApiDbMcu:508 - Load IP Config File for TOUCHSENSING
+2025-06-18 00:02:03,875 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-06-18 00:02:09,974 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 6333mS.
+2025-06-18 00:02:09,981 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 2mS.
+2025-06-18 00:02:09,984 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
