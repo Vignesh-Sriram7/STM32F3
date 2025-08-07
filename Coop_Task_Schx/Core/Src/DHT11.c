@@ -1,0 +1,142 @@
+/*
+ * DHT11.c
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: vigne
+ */
+
+#include "DHT11.h"
+#include "stm32f3xx.h"
+
+#define OUTPUT 1
+#define INPUT  0
+
+/**
+ * @brief configure dht11 struct with given parameter
+ * @param htim TIMER for calculate delays ex:&htim2
+ * @param port GPIO port ex:GPIOA
+ * @param pin GPIO pin ex:GPIO_PIN_2
+ * @param dht struct to configure ex:&dht
+ */
+void init_dht11(dht11_t *dht, TIM_HandleTypeDef *htim, GPIO_TypeDef* port, uint16_t pin){
+    dht->htim = htim;
+    dht->port = port;
+    dht->pin = pin;
+}
+
+/**
+ * @brief set DHT pin direction with given parameter
+ * @param dht struct for dht
+ * @param pMode GPIO Mode ex:INPUT or OUTPUT
+ */
+void set_dht11_gpio_mode(dht11_t *dht, uint8_t pMode)
+{
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+    GPIO_InitStruct.Pin = dht->pin;
+    GPIO_InitStruct.Pull = GPIO_PULLUP;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+
+    if(pMode == OUTPUT)
+    {
+        GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+    }
+    else if(pMode == INPUT)
+    {
+        GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+    }
+    HAL_GPIO_Init(dht->port, &GPIO_InitStruct);
+}
+
+/**
+ * @brief reads dht11 value
+ * @param dht struct for dht11
+ * @return 1 if read ok, 0 if something wrong
+ */
+uint8_t readDHT11(dht11_t *dht)
+{
+    uint16_t mTime1 = 0;
+    uint8_t mBit = 0;
+    uint8_t mData[40] = {0};
+    uint8_t bytes[5] = {0};
+
+    // Start communication sequence
+    set_dht11_gpio_mode(dht, OUTPUT);             // set pin as output
+    HAL_GPIO_WritePin(dht->port, dht->pin, GPIO_PIN_RESET);
+    HAL_Delay(18);                                // hold low for at least 18ms
+
+    __disable_irq();                              // critical section start
+    HAL_TIM_Base_Start(dht->htim);                // start timer for timing
+
+    set_dht11_gpio_mode(dht, INPUT);              // switch to input for sensor response
+
+    // Sensor response wait: should pull line LOW (~80us)
+    __HAL_TIM_SET_COUNTER(dht->htim, 0);
+    while(HAL_GPIO_ReadPin(dht->port, dht->pin) == GPIO_PIN_SET){
+        if(__HAL_TIM_GET_COUNTER(dht->htim) > 100) goto fail; // 100 us timeout
+    }
+
+    // Sensor response wait: line HIGH (~80us)
+    __HAL_TIM_SET_COUNTER(dht->htim, 0);
+    while(HAL_GPIO_ReadPin(dht->port, dht->pin) == GPIO_PIN_RESET){
+        if(__HAL_TIM_GET_COUNTER(dht->htim) > 100) goto fail;
+    }
+
+    // Start reading 40 bits (5 bytes)
+    for(int i = 0; i < 40; i++)
+    {
+        // Wait for line to go LOW - start of bit
+        __HAL_TIM_SET_COUNTER(dht->htim, 0);
+        while(HAL_GPIO_ReadPin(dht->port, dht->pin) == GPIO_PIN_SET){
+            if(__HAL_TIM_GET_COUNTER(dht->htim) > 100) goto fail;
+        }
+
+        // Wait for line to go HIGH - bit signal start
+        __HAL_TIM_SET_COUNTER(dht->htim, 0);
+        while(HAL_GPIO_ReadPin(dht->port, dht->pin) == GPIO_PIN_RESET){
+            if(__HAL_TIM_GET_COUNTER(dht->htim) > 100) goto fail;
+        }
+
+        // Measure how long line stays HIGH - determines 0 or 1
+        __HAL_TIM_SET_COUNTER(dht->htim, 0);
+        while(HAL_GPIO_ReadPin(dht->port, dht->pin) == GPIO_PIN_SET){
+            if(__HAL_TIM_GET_COUNTER(dht->htim) > 100) goto fail;
+        }
+        mTime1 = __HAL_TIM_GET_COUNTER(dht->htim);
+
+        // 26-28us ~ 0, 70us ~ 1 for DHT11
+        if(mTime1 > 40) {
+            mBit = 1;
+        } else {
+            mBit = 0;
+        }
+
+        mData[i] = mBit;
+    }
+
+    // Stop timing and enable interrupts
+    HAL_TIM_Base_Stop(dht->htim);
+    __enable_irq();
+
+    // Convert bits to bytes
+    for(int i = 0; i < 40; i++) {
+        bytes[i / 8] <<= 1;
+        bytes[i / 8] |= mData[i] & 0x01;
+    }
+
+    // Validate checksum: sum of first four bytes should equal fifth byte
+    if ((uint8_t)(bytes[0] + bytes[1] + bytes[2] + bytes[3]) != bytes[4]) {
+        return 0;
+    }
+
+    // Assign humidity and temperature (integer values)
+    dht->humidty = bytes[0];      // integral humidity
+    dht->temperature = bytes[2];  // integral temperature
+
+    return 1;
+
+fail:
+    HAL_TIM_Base_Stop(dht->htim);
+    __enable_irq();
+    return 0;
+}

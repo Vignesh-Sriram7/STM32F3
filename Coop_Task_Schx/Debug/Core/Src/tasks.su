@@ -1,0 +1,6 @@
+../Core/Src/tasks.c:38:6:log_telemetry	16	static
+../Core/Src/tasks.c:44:6:check_health	16	static
+../Core/Src/tasks.c:48:6:thermal_mon	72	static
+../Core/Src/tasks.c:95:6:commn_link_mon	16	static
+../Core/Src/tasks.c:100:6:handle_command	16	static
+../Core/Src/tasks.c:105:6:ir_sensor_task	64	static

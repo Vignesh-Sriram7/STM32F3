@@ -1,0 +1,34 @@
+#include "task.h"
+
+#define MAX_TASKS 5
+
+static Task task_list[MAX_TASKS]; // task_list of the type structure to access the members of Task
+static uint8_t task_count = 0;
+
+// You’ll provide this function from your timer
+// count initialized to 0
+void scheduler_init(void) {
+    task_count = 0;
+}
+
+//Load the tasks and calculate the interval for the task to be executed in the next cycle
+void scheduler_add(TaskFunction func, uint32_t interval) {
+    if (task_count < MAX_TASKS) {
+        task_list[task_count].run = func; // creates a pointer to the different tasks
+        task_list[task_count].interval_ms = interval; //assigns the interval to the tasks
+        task_list[task_count].next_run = HAL_GetTick() + interval;// gets the current time and adds the interval to store the next_run value
+        task_count++;
+    }
+}
+
+void scheduler_run(void) {
+    uint32_t now = HAL_GetTick();
+    //Checks if the current time has surpassed the interval time it has to be executed
+    for (uint8_t i = 0; i < task_count; i++) {
+        if ((int32_t)(now - task_list[i].next_run) >= 0) {
+            task_list[i].run();
+            task_list[i].next_run += task_list[i].interval_ms;// updates the next_run time
+        }
+    }
+}
+

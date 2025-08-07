@@ -1,0 +1,6 @@
+../Core/Src/tasks.c:38:6:log_telemetry	1
+../Core/Src/tasks.c:44:6:check_health	1
+../Core/Src/tasks.c:48:6:thermal_mon	2
+../Core/Src/tasks.c:95:6:commn_link_mon	1
+../Core/Src/tasks.c:100:6:handle_command	1
+../Core/Src/tasks.c:105:6:ir_sensor_task	2
