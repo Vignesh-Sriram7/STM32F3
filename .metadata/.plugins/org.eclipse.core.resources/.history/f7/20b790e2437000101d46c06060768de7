@@ -1,0 +1,40 @@
+/*
+ * tasks.c
+ *
+ *  Created on: Aug 1, 2025
+ *      Author: vigne
+ */
+
+
+#include "task.h"
+#include "stm32f3xx_hal.h"
+#include <string.h>
+
+extern UART_HandleTypeDef huart2;
+char msg[] = "Diagnostic check done\r\n";
+
+void log_telemetry(void) {
+    // For now: toggle LED or send UART message
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+}
+
+void check_health(void) {
+    // Simulate a health check
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+}
+
+void thermal_mon(void) {
+    // Simulate a health check
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+}
+
+void commn_link_mon(void) {
+    // Simulate a health check
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+}
+
+void handle_command(void) {
+    // Simulate command processing
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+}

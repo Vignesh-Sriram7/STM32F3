@@ -1,0 +1,19 @@
+/*
+ * millis.h
+ *
+ *  Created on: Aug 1, 2025
+ *      Author: vigne
+ */
+
+#ifndef MILLIS_H_
+#define MILLIS_H_
+#include "stm32f3xx_hal.h"
+
+static volatile uint32_t tick_count = 0;
+extern volatile uint32_t millis;
+
+uint32_t millis(void);
+
+void millis_init(void);
+
+#endif

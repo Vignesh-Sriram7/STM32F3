@@ -1,7 +1,9 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BlinkLED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_base Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BlinkLED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_base Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_Rx_IT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_Echo Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_Controlled_LED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Toggle_button_LED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FSM_with_button Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Web_Control_GPIO Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Basic_cmmn Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ESP32_STM32_Cmmn Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Coop_Task_Schx Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:flying_fish Debug
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Basic_cmmn\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Basic_cmmn\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BlinkLED\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:BlinkLED\ Debug/activeLaunchTarget=null\:---

@@ -1,0 +1,33 @@
+/*
+ * hmonitor.c
+ *
+ *  Created on: Aug 1, 2025
+ *      Author: vigne
+ */
+#include "hmonitor.h"
+#include "stm32f3xx_hal.h"  // or your MCU's HAL
+#include <stdint.h>
+
+extern ADC_HandleTypeDef hadc1;
+
+uint16_t read_battery_mv(void) {
+    HAL_ADC_Start(&hadc1);
+    HAL_ADC_PollForConversion(&hadc1, 10);
+    uint16_t raw = HAL_ADC_GetValue(&hadc1);
+    HAL_ADC_Stop(&hadc1);
+
+    float voltage = (raw * 3.3f / 4095.0f) * 2; // For 2:1 divider
+    return (uint16_t)(voltage * 1000);
+}
+
+int16_t read_mcu_temperature(void) {
+    HAL_ADC_Start(&hadc1);
+    HAL_ADC_PollForConversion(&hadc1, 10);
+    uint16_t raw = HAL_ADC_GetValue(&hadc1);
+    HAL_ADC_Stop(&hadc1);
+
+    float temp = ((raw * 3.3f / 4095.0f) - 0.76f) / 0.0025f + 25;
+    return (int16_t)temp;
+}
+
+

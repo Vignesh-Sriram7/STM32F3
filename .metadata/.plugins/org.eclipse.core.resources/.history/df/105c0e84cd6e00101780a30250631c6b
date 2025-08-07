@@ -1,0 +1,40 @@
+#include "task.h"
+
+#define MAX_TASKS 5
+
+static Task task_list[MAX_TASKS];
+static uint8_t task_count = 0;
+
+// You’ll provide this function from your timer
+extern uint32_t millis(void);
+
+void scheduler_init(void) {
+    task_count = 0;
+}
+
+void scheduler_add(TaskFunction func, uint32_t interval) {
+    if (task_count < MAX_TASKS) {
+        task_list[task_count].run = func;
+        task_list[task_count].interval_ms = interval;
+        task_list[task_count].next_run = millis() + interval;
+        task_count++;
+    }
+}
+
+void scheduler_run(void) {
+    uint32_t now = millis();
+    for (uint8_t i = 0; i < task_count; i++) {
+        if ((int32_t)(now - task_list[i].next_run) >= 0) {
+            task_list[i].run();
+            task_list[i].next_run += task_list[i].interval_ms;
+        }
+    }
+}
+/*
+ * scheduler.c
+ *
+ *  Created on: Aug 1, 2025
+ *      Author: vigne
+ */
+
+

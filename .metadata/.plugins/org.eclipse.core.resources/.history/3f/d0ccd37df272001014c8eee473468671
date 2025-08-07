@@ -1,0 +1,114 @@
+/*
+ * tasks.c
+ *
+ *  Created on: Aug 1, 2025
+ *      Author: vigne
+ */
+
+
+#include "task.h"
+#include "stm32f3xx_hal.h"
+#include <string.h>
+#include "DHT11.h"
+#include <stdio.h>
+
+extern UART_HandleTypeDef huart2;
+#define HIGH_TEMP_LIMIT 50
+#define LOW_TEMP_LIMIT 0
+#define WARN_TEMP_HIGH 45
+#define WARN_TEMP_LOW 5
+#define HIGH_HUM_LIMIT 80
+#define LOW_HUM_LIMIT 20
+#define WARN_HUM_HIGH 75
+#define WARN_HUM_LOW 25
+
+#define IR_SENSOR_PORT GPIOB
+#define IR_SENSOR_PIN  GPIO_PIN_0
+
+// Global system status variable
+SystemStatus_t system_status;
+extern dht11_t dht11;
+const char *msg1 = "First task";
+const char *msg2 = "Second task";
+const char *msg3 = "Third task";
+const char *msg4 = "Fourth task";
+const char *msg5 = "Fifth task";
+char buffer[50];
+
+void log_telemetry(void) {
+    // For now: toggle LED or send UART message
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg1, strlen(msg1), HAL_MAX_DELAY);
+}
+
+void check_health(void) {
+    // Simulate a health check
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg2, strlen(msg2), HAL_MAX_DELAY);
+}
+void thermal_mon(void) {
+	    HAL_UART_Transmit(&huart2, (uint8_t*)"Start DHT11 read\r\n", 18, HAL_MAX_DELAY);
+	    if (readDHT11(&dht11)) {
+	        char buffer[50];
+	        snprintf(buffer, sizeof(buffer), "Temp: %d C, Humidity: %d%%\r\n", dht11.temperature, dht11.humidty);
+	        HAL_UART_Transmit(&huart2, (uint8_t*)buffer, strlen(buffer), HAL_MAX_DELAY);
+	    } else {
+	        HAL_UART_Transmit(&huart2, (uint8_t*)"DHT11 read failed\r\n", 19, HAL_MAX_DELAY);
+	    }
+
+    // Simulate a health check
+	/*HAL_UART_Transmit(&huart2, (uint8_t*)"Start DHT11 read\r\n", 18, HAL_MAX_DELAY);
+	if (readDHT11(&dht11)) {
+	        float temp = dht11.temperature;
+	        float hum  = dht11.humidty;
+	        char buffer[64];
+	            snprintf(buffer, sizeof(buffer), "Temp: %d C, Humidity: %d%%\r\n", dht11.temperature, dht11.humidty);
+	            HAL_UART_Transmit(&huart2, (uint8_t *)buffer, strlen(buffer), HAL_MAX_DELAY);
+
+	        if (temp > HIGH_TEMP_LIMIT || temp < LOW_TEMP_LIMIT) {
+	            system_status.thermal = FAULT;
+	        } else if (temp > WARN_TEMP_HIGH || temp < WARN_TEMP_LOW) {
+	            system_status.thermal = WARNING;
+	        } else {
+	            system_status.thermal = OK;
+	        }
+	        // Repeat for humidity, or combine with temperature check as needed
+
+
+			if (hum > HIGH_TEMP_LIMIT || hum < LOW_TEMP_LIMIT) {
+				system_status.thermal = FAULT;
+			} else if (hum > WARN_TEMP_HIGH || hum < WARN_TEMP_LOW) {
+				system_status.thermal = WARNING;
+			} else {
+				system_status.thermal = OK;
+			}
+			// Repeat for humidity, or combine with temperature check as needed
+	} else {
+		system_status.thermal = FAULT; // Could not read sensor
+		HAL_UART_Transmit(&huart2, (uint8_t *)"DHT11 read failed\r\n", 19, HAL_MAX_DELAY);
+	}*/
+
+
+	//HAL_UART_Transmit(&huart2, (uint8_t*)msg3, strlen(msg3), HAL_MAX_DELAY);
+	//HAL_UART_Transmit(&huart2, (uint8_t*)"Read failed\r\n", 18, HAL_MAX_DELAY);
+}
+
+void commn_link_mon(void) {
+    // Simulate a health check
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg4, strlen(msg4), HAL_MAX_DELAY);
+}
+
+void handle_command(void) {
+    // Simulate command processing
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg5, strlen(msg5), HAL_MAX_DELAY);
+}
+
+void ir_sensor_task(void)
+{
+    char buffer[50];
+    // Read the digital input
+    GPIO_PinState state = HAL_GPIO_ReadPin(IR_SENSOR_PORT, IR_SENSOR_PIN);
+
+    snprintf(buffer, sizeof(buffer), "IR Sensor State: %s\r\n", (state == GPIO_PIN_SET) ? "ON" : "OFF");
+    HAL_UART_Transmit(&huart2, (uint8_t*)buffer, strlen(buffer), HAL_MAX_DELAY);
+}
+

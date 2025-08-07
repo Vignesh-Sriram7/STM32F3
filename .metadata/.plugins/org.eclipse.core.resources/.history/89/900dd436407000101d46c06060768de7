@@ -1,0 +1,14 @@
+/*
+ * hmonitor.h
+ *
+ *  Created on: Aug 1, 2025
+ *      Author: vigne
+ */
+
+#ifndef HMONITOR_H_
+#define HMONITOR_H_
+
+uint16_t read_battery_mv(void);
+int16_t read_mcu_temperature(void);
+
+#endif /* SRC_HMONITOR_H_ */

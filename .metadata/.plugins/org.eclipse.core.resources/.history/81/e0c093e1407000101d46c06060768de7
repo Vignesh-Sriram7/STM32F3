@@ -1,0 +1,23 @@
+#ifndef TASK_H
+#define TASK_H
+
+#include <stdint.h>
+#include <stm32f3xx_hal.h>
+
+typedef void (*TaskFunction)(void); // pointer to a function for easy accessibility
+
+typedef struct {
+    TaskFunction run; // a variable run pointing to the pointer type
+    uint32_t interval_ms; // member variables of the structure
+    uint32_t next_run;
+} Task;
+
+void scheduler_init(void);
+void scheduler_add(TaskFunction func, uint32_t interval); // Takes the function or the task as the argument and the interval of its execution
+void scheduler_run(void);
+
+#endif
+
+
+
+

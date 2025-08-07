@@ -1,0 +1,620 @@
+2025-06-25 00:03:33,814 [INFO] Gpio:277 - dependency for GPIO [USART2]
+2025-06-25 00:03:33,969 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-25 00:03:38,956 [INFO] Gpio:277 - dependency for GPIO [USART2]
+2025-06-25 00:03:49,901 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 769711464 Bytes (1006632960)
+2025-06-25 00:03:51,500 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 313453504 Bytes (1003487232)
+2025-06-25 00:03:54,215 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 418311104 Bytes (1003487232)
+2025-06-25 00:03:54,767 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-06-25 00:03:54,767 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-25 00:03:54,767 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-25 00:03:54,767 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-06-25 00:03:54,768 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-25 00:03:54,770 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-25 00:03:54,957 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp_save
+2025-06-25 00:03:55,138 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp
+2025-06-25 00:03:55,202 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp_save
+2025-06-25 00:03:55,407 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp
+2025-06-25 00:03:55,526 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c_save
+2025-06-25 00:03:55,823 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c
+2025-06-25 00:03:55,833 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h_save
+2025-06-25 00:03:55,936 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h
+2025-06-25 00:03:55,990 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-25 00:03:56,123 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c
+2025-06-25 00:03:56,129 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp_save
+2025-06-25 00:03:56,203 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp
+2025-06-25 00:03:56,247 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-25 00:03:56,389 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-25 00:03:56,481 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h_save
+2025-06-25 00:03:56,592 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h
+2025-06-25 00:03:56,626 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c_save
+2025-06-25 00:03:56,833 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c
+2025-06-25 00:03:57,437 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 348mS.
+2025-06-25 00:03:57,445 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-25 00:03:57,568 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-25 00:03:59,445 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1998mS.
+2025-06-25 00:03:59,447 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-06-25 00:03:59,449 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-06-25 00:06:45,326 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 767046032 Bytes (1003487232)
+2025-06-25 00:06:47,020 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 812024608 Bytes (1003487232)
+2025-06-25 00:06:47,526 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 847264144 Bytes (1003487232)
+2025-06-25 00:06:48,132 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-06-25 00:06:48,133 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-25 00:06:48,133 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-25 00:06:48,133 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-06-25 00:06:48,133 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-25 00:06:48,139 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-25 00:06:48,291 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp_save
+2025-06-25 00:06:48,446 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp
+2025-06-25 00:06:48,481 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp_save
+2025-06-25 00:06:48,651 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp
+2025-06-25 00:06:48,768 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c_save
+2025-06-25 00:06:48,892 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c
+2025-06-25 00:06:48,902 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h_save
+2025-06-25 00:06:49,014 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h
+2025-06-25 00:06:49,080 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-25 00:06:49,213 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c
+2025-06-25 00:06:49,223 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp_save
+2025-06-25 00:06:49,291 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp
+2025-06-25 00:06:49,324 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-25 00:06:49,466 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-25 00:06:49,546 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h_save
+2025-06-25 00:06:49,633 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h
+2025-06-25 00:06:49,658 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c_save
+2025-06-25 00:06:49,845 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c
+2025-06-25 00:06:50,368 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 280mS.
+2025-06-25 00:06:50,375 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-25 00:06:50,481 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-25 00:06:52,080 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1702mS.
+2025-06-25 00:06:52,083 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-06-25 00:06:52,085 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-06-25 00:07:32,378 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 670939936 Bytes (1003487232)
+2025-06-25 00:07:34,105 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 716548288 Bytes (1003487232)
+2025-06-25 00:07:34,590 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 750629056 Bytes (1003487232)
+2025-06-25 00:07:35,042 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-06-25 00:07:35,042 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-25 00:07:35,042 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-25 00:07:35,042 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-06-25 00:07:35,043 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-25 00:07:35,043 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-25 00:07:35,246 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp_save
+2025-06-25 00:07:35,381 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp
+2025-06-25 00:07:35,412 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp_save
+2025-06-25 00:07:35,533 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp
+2025-06-25 00:07:35,635 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c_save
+2025-06-25 00:07:35,759 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c
+2025-06-25 00:07:35,770 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h_save
+2025-06-25 00:07:35,874 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h
+2025-06-25 00:07:35,915 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-25 00:07:36,034 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c
+2025-06-25 00:07:36,038 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp_save
+2025-06-25 00:07:36,113 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp
+2025-06-25 00:07:36,157 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-25 00:07:36,300 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-25 00:07:36,367 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h_save
+2025-06-25 00:07:36,476 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h
+2025-06-25 00:07:36,500 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c_save
+2025-06-25 00:07:36,626 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c
+2025-06-25 00:07:37,090 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 229mS.
+2025-06-25 00:07:37,092 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-25 00:07:37,199 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-25 00:07:38,485 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1393mS.
+2025-06-25 00:07:38,491 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 4mS.
+2025-06-25 00:07:38,497 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-06-25 00:09:36,212 [INFO] Gpio:277 - dependency for GPIO [USART2]
+2025-06-25 00:09:39,445 [INFO] Gpio:277 - dependency for GPIO [USART2]
+2025-06-25 00:09:39,525 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-25 00:10:03,977 [INFO] Gpio:277 - dependency for GPIO [USART2]
+2025-06-25 00:10:06,912 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 818327360 Bytes (1003487232)
+2025-06-25 00:10:08,363 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 865425528 Bytes (1003487232)
+2025-06-25 00:10:08,924 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 300267032 Bytes (1003487232)
+2025-06-25 00:10:09,341 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-06-25 00:10:09,341 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-25 00:10:09,341 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-25 00:10:09,342 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-06-25 00:10:09,342 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-25 00:10:09,346 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-25 00:10:09,614 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp_save
+2025-06-25 00:10:09,803 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp
+2025-06-25 00:10:09,847 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp_save
+2025-06-25 00:10:09,999 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp
+2025-06-25 00:10:10,122 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c_save
+2025-06-25 00:10:10,244 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c
+2025-06-25 00:10:10,256 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h_save
+2025-06-25 00:10:10,346 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h
+2025-06-25 00:10:10,402 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-25 00:10:10,513 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c
+2025-06-25 00:10:10,522 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp_save
+2025-06-25 00:10:10,589 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp
+2025-06-25 00:10:10,634 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-25 00:10:10,779 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-25 00:10:10,879 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h_save
+2025-06-25 00:10:10,989 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h
+2025-06-25 00:10:11,015 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c_save
+2025-06-25 00:10:11,201 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c
+2025-06-25 00:10:11,770 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 279mS.
+2025-06-25 00:10:11,778 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-25 00:10:11,880 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-25 00:10:13,535 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1758mS.
+2025-06-25 00:10:13,538 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-06-25 00:10:13,540 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-06-25 00:13:33,985 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 419006056 Bytes (1003487232)
+2025-06-25 00:13:35,941 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 380656496 Bytes (1003487232)
+2025-06-25 00:13:36,574 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 550853000 Bytes (1003487232)
+2025-06-25 00:13:37,109 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-06-25 00:13:37,111 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-25 00:13:37,111 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-25 00:13:37,111 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-06-25 00:13:37,111 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-25 00:13:37,112 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-25 00:13:37,275 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp_save
+2025-06-25 00:13:37,414 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp
+2025-06-25 00:13:37,447 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp_save
+2025-06-25 00:13:37,592 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp
+2025-06-25 00:13:37,701 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c_save
+2025-06-25 00:13:37,824 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c
+2025-06-25 00:13:37,834 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h_save
+2025-06-25 00:13:37,921 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h
+2025-06-25 00:13:37,978 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-25 00:13:38,099 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c
+2025-06-25 00:13:38,102 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp_save
+2025-06-25 00:13:38,170 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp
+2025-06-25 00:13:38,212 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-25 00:13:38,357 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-25 00:13:38,423 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h_save
+2025-06-25 00:13:38,521 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h
+2025-06-25 00:13:38,547 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c_save
+2025-06-25 00:13:38,725 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c
+2025-06-25 00:13:39,235 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 215mS.
+2025-06-25 00:13:39,243 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-25 00:13:39,352 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-25 00:13:40,834 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1592mS.
+2025-06-25 00:13:40,838 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-06-25 00:13:40,843 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-06-25 00:15:42,732 [INFO] Gpio:277 - dependency for GPIO [USART2]
+2025-06-25 00:15:53,211 [INFO] Gpio:277 - dependency for GPIO [USART2]
+2025-06-25 00:15:53,277 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-25 00:15:57,627 [INFO] Gpio:277 - dependency for GPIO []
+2025-06-25 00:15:57,666 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-25 00:15:57,825 [INFO] Gpio:277 - dependency for GPIO []
+2025-06-25 00:15:57,897 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-25 00:16:00,189 [INFO] Gpio:277 - dependency for GPIO []
+2025-06-25 00:16:00,231 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-25 00:16:41,959 [INFO] Gpio:277 - dependency for GPIO []
+2025-06-25 00:16:55,143 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 580736920 Bytes (1003487232)
+2025-06-25 00:16:57,088 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 646171488 Bytes (1003487232)
+2025-06-25 00:16:57,613 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 716952400 Bytes (1003487232)
+2025-06-25 00:16:58,056 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-06-25 00:16:58,056 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-25 00:16:58,056 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-25 00:16:58,057 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-25 00:16:58,058 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-25 00:16:58,279 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp_save
+2025-06-25 00:16:58,490 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp
+2025-06-25 00:16:58,521 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp_save
+2025-06-25 00:16:58,655 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp
+2025-06-25 00:16:58,733 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c_save
+2025-06-25 00:16:58,914 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c
+2025-06-25 00:16:58,928 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h_save
+2025-06-25 00:16:59,057 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h
+2025-06-25 00:16:59,116 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-25 00:16:59,290 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c
+2025-06-25 00:16:59,299 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp_save
+2025-06-25 00:16:59,367 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp
+2025-06-25 00:16:59,411 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-25 00:16:59,561 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-25 00:16:59,658 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h_save
+2025-06-25 00:16:59,755 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h
+2025-06-25 00:16:59,788 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c_save
+2025-06-25 00:16:59,979 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c
+2025-06-25 00:17:00,570 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 304mS.
+2025-06-25 00:17:00,576 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-25 00:17:00,688 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-25 00:17:02,881 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 2305mS.
+2025-06-25 00:17:02,883 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-06-25 00:17:02,885 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-06-25 00:27:58,410 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 780689280 Bytes (1003487232)
+2025-06-25 00:28:00,108 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 826826624 Bytes (1003487232)
+2025-06-25 00:28:00,772 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 291249496 Bytes (1003487232)
+2025-06-25 00:28:01,636 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-06-25 00:28:01,637 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-25 00:28:01,637 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-25 00:28:01,640 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-25 00:28:01,653 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-25 00:28:01,954 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp_save
+2025-06-25 00:28:02,165 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\license.tmp
+2025-06-25 00:28:02,210 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp_save
+2025-06-25 00:28:02,385 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\gpio.tmp
+2025-06-25 00:28:02,454 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c_save
+2025-06-25 00:28:02,556 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_it.c
+2025-06-25 00:28:02,566 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h_save
+2025-06-25 00:28:02,647 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_it.h
+2025-06-25 00:28:02,699 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-25 00:28:02,818 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\stm32f3xx_hal_msp.c
+2025-06-25 00:28:02,822 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp_save
+2025-06-25 00:28:02,899 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\MXTmpFiles\system.tmp
+2025-06-25 00:28:02,942 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-25 00:28:03,112 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-25 00:28:03,197 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h_save
+2025-06-25 00:28:03,280 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Inc\main.h
+2025-06-25 00:28:03,311 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c_save
+2025-06-25 00:28:03,485 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\Core\Src\main.c
+2025-06-25 00:28:04,110 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 336mS.
+2025-06-25 00:28:04,120 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-25 00:28:04,233 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-25 00:28:05,842 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1717mS.
+2025-06-25 00:28:05,844 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-06-25 00:28:05,852 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-06-25 00:29:12,349 [INFO] MainUpdater:2872 - connection check result : 10
+2025-06-25 00:29:12,770 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2025-06-25 00:29:12,782 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2025-06-25 00:29:12,785 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2025-06-25 00:29:16,256 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2025-06-25 00:29:16,258 [INFO] DetailPanel:341 - Set advertising image to C:/Users/vigne/STM32Cube/Repository/\en.cubemxfinderstm32wba6.jpg
+2025-06-25 00:29:27,614 [INFO] MainUpdater:2872 - connection check result : 10
+2025-06-25 00:29:27,986 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2025-06-25 00:29:27,997 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2025-06-25 00:29:27,998 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2025-06-25 00:29:29,787 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2025-06-25 00:29:29,788 [INFO] DetailPanel:341 - Set advertising image to C:/Users/vigne/STM32Cube/Repository/\en.cubemxfinderstm32wba6.jpg
+2025-06-25 00:30:06,210 [INFO] MainUpdater:2872 - connection check result : 10
+2025-06-25 00:30:06,210 [INFO] MainUpdater:2872 - connection check result : 10
+2025-06-25 00:30:06,437 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-06-25 00:30:06,438 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.141
+2025-06-25 00:30:06,501 [ERROR] ProjectManagerView:395 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$9.caretUpdate(ProjectChoiceTab.java:2678) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:408) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4484) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4506) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:857) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1343) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1242) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1223) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1819) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:227) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:781) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:740) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:699) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1725) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:979) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3766) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1962) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:555) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:392) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:899) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:789) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:287) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:341) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:319) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:246) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1198) ~[com.st.stm32cube.common.mx_6.14.1.202504091515/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.14.1.202504091515/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.14.1.202504091515/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.14.1.202504091515/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.14.1.202504091515/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2025-06-25 00:30:06,556 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2025-06-25 00:30:06,556 [INFO] ThirdParty:873 - entering critical section [close project]
+2025-06-25 00:30:06,556 [INFO] ThirdParty:883 - exiting critical section [close project]
+2025-06-25 00:30:06,565 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2025-06-25 00:30:06,621 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 978675096 Bytes (1048576000)
+2025-06-25 00:30:06,622 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-06-25 00:30:06,623 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.141
+2025-06-25 00:30:06,623 [INFO] OpenFileManager:354 - Change cursor
+2025-06-25 00:30:06,671 [INFO] RulesReader:64 - Compatibility file has been processed (302 Rules)
+2025-06-25 00:30:06,695 [INFO] Mcu:2011 - Initializing MCU STM32F303RETx STM32F303RETx STM32F303RET6
+2025-06-25 00:30:10,255 [INFO] Context:756 - Trying to add GPIOservice into a context  which must be forbidden
+2025-06-25 00:30:11,745 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2025-06-25 00:30:11,745 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2025-06-25 00:30:11,746 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) Pin0 (VP_RIF_VS_RIF1) cannot be retrieved for this MCU
+2025-06-25 00:30:11,747 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2025-06-25 00:30:12,031 [INFO] RtosManager:558 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2025-06-25 00:30:12,032 [INFO] RtosManager:558 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2025-06-25 00:30:12,032 [INFO] RtosManager:558 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2025-06-25 00:30:12,032 [INFO] RtosManager:558 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2025-06-25 00:30:12,032 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2025-06-25 00:30:12,054 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,055 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,056 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,056 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,056 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,056 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,056 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,056 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,056 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,056 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,056 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,056 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-06-25 00:30:12,057 [WARN] ModelPack:524 - Component already loaded: STMicroelectronics:HAL Drivers:0.0.0:STMicroelectronics:Device:STMicro_Driver:XSPI:HAL::0.0.1:HAL_XSPI
+2025-06-25 00:30:12,210 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 00:30:13,456 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 00:30:14,113 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 493844440 Bytes (1073741824)
+2025-06-25 00:30:14,157 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2025-06-25 00:30:14,157 [INFO] ThirdParty:835 - entering critical section [change project]
+2025-06-25 00:30:14,157 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-PM33A1 1.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.8.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.2
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.1.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Avnet-IotConnect X-CUBE-IoTC-DA16k-PMOD 1.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.2
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST60 1.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.1
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.25.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.1.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.2.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.1.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.7.0
+2025-06-25 00:30:14,158 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 2.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.8.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.20
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 2.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.2.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.1
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.1.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :quantropi X-CUBE-qispace-sdk-base 2.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST67W61 1.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.1.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.3.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.3.0
+2025-06-25 00:30:14,159 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2025-06-25 00:30:14,160 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2025-06-25 00:30:14,160 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2025-06-25 00:30:14,160 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2025-06-25 00:30:14,160 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2025-06-25 00:30:14,160 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2025-06-25 00:30:14,160 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2025-06-25 00:30:14,160 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2025-06-25 00:30:14,160 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.3
+2025-06-25 00:30:14,160 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2025-06-25 00:30:14,160 [INFO] ThirdParty:841 - exiting critical section [change project]
+2025-06-25 00:30:14,824 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2025-06-25 00:30:14,830 [INFO] PinOutPanel:1589 - setPackage(STM32F303RETx,LQFP64)
+2025-06-25 00:30:15,527 [INFO] UtilMem:75 - Before build in PCC Used Memory: 706183128 Bytes (1073741824)
+2025-06-25 00:30:16,799 [INFO] UtilMem:75 - After build in PCC Used Memory: 754939864 Bytes (1073741824)
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,856 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,856 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,856 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,856 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,860 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,861 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,862 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,863 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,864 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,865 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,866 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,866 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,866 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,866 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,867 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,867 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,868 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,869 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,870 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,871 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,872 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,873 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,873 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,874 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,875 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,875 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 00:30:16,931 [INFO] CADModel:165 - CPN selected for project levelSTM32F303RET6
+2025-06-25 00:30:16,931 [INFO] CADModel:114 - Register for checkConnection events
+2025-06-25 00:30:17,037 [INFO] OpenFileManager:385 - Restore cursor
+2025-06-25 00:30:17,804 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 865275696 Bytes (1073741824)
+2025-06-25 00:30:17,889 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 888635352 Bytes (1073741824)
+2025-06-25 00:30:18,163 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-25 00:30:18,164 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-25 00:30:18,165 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-25 00:30:18,552 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\license.tmp_save
+2025-06-25 00:30:18,766 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\license.tmp
+2025-06-25 00:30:18,796 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_it.c_save
+2025-06-25 00:30:19,043 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_it.c
+2025-06-25 00:30:19,056 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_it.h_save
+2025-06-25 00:30:19,214 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_it.h
+2025-06-25 00:30:19,319 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-25 00:30:19,663 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_hal_msp.c
+2025-06-25 00:30:19,680 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\system.tmp_save
+2025-06-25 00:30:19,843 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\system.tmp
+2025-06-25 00:30:19,867 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-25 00:30:20,126 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-25 00:30:20,188 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2025-06-25 00:30:20,207 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\main.h_save
+2025-06-25 00:30:20,352 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\main.h
+2025-06-25 00:30:20,361 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\main.c_save
+2025-06-25 00:30:20,522 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\main.c
+2025-06-25 00:30:21,018 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 243mS.
+2025-06-25 00:30:21,021 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-25 00:30:21,126 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-25 00:30:21,131 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-06-25 00:30:21,141 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-06-25 00:30:21,160 [INFO] ApiDbMcu:508 - Load IP Config File for TOUCHSENSING
+2025-06-25 00:30:21,167 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-06-25 00:30:25,564 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 4541mS.
+2025-06-25 00:30:25,565 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-06-25 00:30:25,568 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-06-25 00:30:27,466 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2025-06-25 00:30:27,477 [INFO] ApiDb:448 - Save user favorites file C:\Users\vigne/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2025-06-25 00:30:27,478 [INFO] ApiDb:452 - User favorites MCUs=[]
+2025-06-25 00:30:52,620 [INFO] Gpio:277 - dependency for GPIO []
+2025-06-25 00:31:32,053 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,2,27,330x196,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-25 00:31:33,034 [INFO] Gpio:277 - dependency for GPIO []
+2025-06-25 00:31:40,051 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 799218168 Bytes (1073741824)
+2025-06-25 00:31:42,312 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 384163944 Bytes (1073741824)
+2025-06-25 00:31:45,959 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 447078504 Bytes (1073741824)
+2025-06-25 00:31:46,300 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-25 00:31:46,301 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-25 00:31:46,302 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-25 00:31:46,310 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-25 00:31:46,534 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\license.tmp_save
+2025-06-25 00:31:46,752 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\license.tmp
+2025-06-25 00:31:46,819 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\gpio.tmp_save
+2025-06-25 00:31:46,997 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\gpio.tmp
+2025-06-25 00:31:47,063 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_it.c_save
+2025-06-25 00:31:47,231 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_it.c
+2025-06-25 00:31:47,246 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_it.h_save
+2025-06-25 00:31:47,374 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_it.h
+2025-06-25 00:31:47,464 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-25 00:31:47,653 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_hal_msp.c
+2025-06-25 00:31:47,664 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\system.tmp_save
+2025-06-25 00:31:47,789 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\system.tmp
+2025-06-25 00:31:47,855 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-25 00:31:48,086 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-25 00:31:48,202 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\main.h_save
+2025-06-25 00:31:48,342 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\main.h
+2025-06-25 00:31:48,410 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\main.c_save
+2025-06-25 00:31:48,632 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\main.c
+2025-06-25 00:31:49,428 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 297mS.
+2025-06-25 00:31:49,431 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-25 00:31:49,540 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-25 00:31:50,980 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1550mS.
+2025-06-25 00:31:50,983 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-06-25 00:31:50,992 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-06-25 00:37:10,220 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 830511400 Bytes (1073741824)
+2025-06-25 00:37:12,369 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 881891624 Bytes (1073741824)
+2025-06-25 00:37:13,162 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 949526824 Bytes (1073741824)
+2025-06-25 00:37:14,442 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-25 00:37:14,442 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-25 00:37:14,443 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-25 00:37:14,449 [INFO] CodeGenerator:882 - code generatio: config db path: D:\STM_IDE\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-25 00:37:14,863 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\license.tmp_save
+2025-06-25 00:37:15,307 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\license.tmp
+2025-06-25 00:37:15,506 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\gpio.tmp_save
+2025-06-25 00:37:16,035 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\gpio.tmp
+2025-06-25 00:37:16,163 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_it.c_save
+2025-06-25 00:37:16,951 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_it.c
+2025-06-25 00:37:16,968 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_it.h_save
+2025-06-25 00:37:17,284 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_it.h
+2025-06-25 00:37:17,466 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_hal_msp.c_save
+2025-06-25 00:37:17,798 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\stm32f3xx_hal_msp.c
+2025-06-25 00:37:17,808 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\system.tmp_save
+2025-06-25 00:37:17,951 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\MXTmpFiles\system.tmp
+2025-06-25 00:37:18,021 [INFO] CodeEngine:319 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-06-25 00:37:18,246 [INFO] CodeEngine:343 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\stm32f3xx_hal_conf.h
+2025-06-25 00:37:18,390 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\main.h_save
+2025-06-25 00:37:18,507 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Inc\main.h
+2025-06-25 00:37:18,550 [INFO] CodeEngine:263 - oldGeneratedFile, D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\main.c_save
+2025-06-25 00:37:18,888 [INFO] CodeEngine:287 - Generated code: D:\STM32CubeIDE\workspace_1.18.1\Toggle_button_LED\Core\Src\main.c
+2025-06-25 00:37:20,217 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 398mS.
+2025-06-25 00:37:20,224 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-25 00:37:20,416 [INFO] ConfigFileManager:1590 - The Die is : DIE446
+2025-06-25 00:37:23,309 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 3080mS.
+2025-06-25 00:37:23,312 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 2mS.
+2025-06-25 00:37:23,322 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.

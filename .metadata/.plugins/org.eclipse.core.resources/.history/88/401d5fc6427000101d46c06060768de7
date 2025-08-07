@@ -1,0 +1,28 @@
+/*
+ * millis.h
+ *
+ *  Created on: Aug 1, 2025
+ *      Author: vigne
+ */
+
+#ifndef MILLIS_H_
+#define MILLIS_H_
+#include "stm32f3xx_hal.h"
+
+static volatile uint32_t tick_count = 0;
+
+void SysTick_Handler(void) {
+    tick_count++;
+}
+
+uint32_t millis(void) {
+    return tick_count;
+}
+
+void millis_init(void) {
+    SysTick_Config(SystemCoreClock / 1000); // 1ms tick
+}
+
+
+
+#endif

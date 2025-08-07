@@ -1,0 +1,20 @@
+/*
+ * millis.c
+ *
+ *  Created on: Aug 3, 2025
+ *      Author: vigne
+ */
+
+#include "millis.h"
+
+volatile uint32_t tick_count = 0;
+
+uint32_t millis(void) {
+    return tick_count;
+}
+
+void millis_init(void) {
+    SysTick_Config(SystemCoreClock / 1000);  // 1ms tick
+}
+
+

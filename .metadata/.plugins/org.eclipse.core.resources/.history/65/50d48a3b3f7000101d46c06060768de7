@@ -1,0 +1,23 @@
+/*
+ * tasks.c
+ *
+ *  Created on: Aug 1, 2025
+ *      Author: vigne
+ */
+
+
+#include "task.h"
+#include "stm32f3xx_hal.h"
+
+void log_telemetry(void) {
+    // For now: toggle LED or send UART message
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+}
+
+void check_health(void) {
+    // Simulate a health check
+}
+
+void handle_command(void) {
+    // Simulate command processing
+}

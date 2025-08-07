@@ -1,0 +1,48 @@
+#ifndef TASK_H
+#define TASK_H
+
+#include <stdint.h>
+#include <stm32f3xx_hal.h>
+
+typedef void (*TaskFunction)(void); // pointer to a function for easy accessibility
+
+typedef struct {
+    TaskFunction run; // a variable run pointing to the pointer type
+    uint32_t interval_ms; // member variables of the structure
+    uint32_t next_run;
+} Task;
+
+void scheduler_init(void);
+void scheduler_add(TaskFunction func, uint32_t interval); // Takes the function or the task as the argument and the interval of its execution
+void scheduler_run(void);
+
+void log_telemetry(void);
+void check_health(void);
+void thermal_mon(void);
+void commn_link_mon(void);
+void handle_command(void);
+
+
+// Enumeration for subsystem states
+typedef enum {
+    OK = 0,
+    WARNING,
+    FAULT
+} SubsystemStatus_t;
+
+// Struct holding system-wide status
+typedef struct {
+    SubsystemStatus_t thermal;
+    SubsystemStatus_t power;
+    SubsystemStatus_t comms;
+    // Add other subsystem statuses here
+} SystemStatus_t;
+
+
+
+
+#endif
+
+
+
+

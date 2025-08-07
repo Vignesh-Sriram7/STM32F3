@@ -1,0 +1,20 @@
+00:28:29 **** Incremental Build of configuration Debug for project Button_toggle_LED ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xE -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:91:8: warning: 'HAL_GPIO_EXTI_Callback' defined but not used [-Wunused-function]
+   91 |   void HAL_GPIO_EXTI_Callback(uint16_t GPIO_PIN){
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Button_toggle_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32CubeIDE\workspace_1.18.1\Button_toggle_LED\STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Button_toggle_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Button_toggle_LED.elf
+ 
+arm-none-eabi-size  Button_toggle_LED.elf 
+arm-none-eabi-objdump -h -S Button_toggle_LED.elf  > "Button_toggle_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+   8000	     12	   1572	   9584	   2570	Button_toggle_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Button_toggle_LED.list
+ 
+
+00:28:32 Build Finished. 0 errors, 1 warnings. (took 2s.937ms)
+

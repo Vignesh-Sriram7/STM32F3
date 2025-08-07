@@ -1,0 +1,74 @@
+/*
+ * tasks.c
+ *
+ *  Created on: Aug 1, 2025
+ *      Author: vigne
+ */
+
+
+#include "task.h"
+#include "stm32f3xx_hal.h"
+#include <string.h>
+#include "DHT11.h"
+
+extern UART_HandleTypeDef huart2;
+#define H_Temp_Limit 50
+#define L_Temp_Limit 0
+#define H_Hum_Limit 20
+#define L_Hum_Limit 80
+
+// Global system status variable
+SystemStatus_t system_status;
+
+void log_telemetry(void) {
+    // For now: toggle LED or send UART message
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+    HAL_UART_Transmit(&huart2, (uint8_t*)msg1, strlen(msg1), HAL_MAX_DELAY);
+}
+
+void check_health(void) {
+    // Simulate a health check
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg2, strlen(msg2), HAL_MAX_DELAY);
+}
+m
+void thermal_mon(void) {
+    // Simulate a health check
+	if (readDHT11(&dht11)) {
+	        float temp = dht11.temperature;
+	        float hum  = dht11.humidty;
+
+	        if (temp > HIGH_TEMP_LIMIT || temp < LOW_TEMP_LIMIT) {
+	            system_status.thermal = FAULT;
+	        } else if (temp > WARN_TEMP_HIGH || temp < WARN_TEMP_LOW) {
+	            system_status.thermal = WARNING;
+	        } else {
+	            system_status.thermal = OK;
+	        }
+	        // Repeat for humidity, or combine with temperature check as needed
+
+
+			if (hum > HIGH_TEMP_LIMIT || hum < LOW_TEMP_LIMIT) {
+				system_status.thermal = FAULT;
+			} else if (hum > WARN_TEMP_HIGH || hum < WARN_TEMP_LOW) {
+				system_status.thermal = WARNING;
+			} else {
+				system_status.thermal = OK;
+			}
+			// Repeat for humidity, or combine with temperature check as needed
+	} else {
+		system_status.thermal = FAULT; // Could not read sensor
+	}
+
+
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg3, strlen(msg3), HAL_MAX_DELAY);
+}
+
+void commn_link_mon(void) {
+    // Simulate a health check
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg4, strlen(msg4), HAL_MAX_DELAY);
+}
+
+void handle_command(void) {
+    // Simulate command processing
+	HAL_UART_Transmit(&huart2, (uint8_t*)msg5, strlen(msg5), HAL_MAX_DELAY);
+}
